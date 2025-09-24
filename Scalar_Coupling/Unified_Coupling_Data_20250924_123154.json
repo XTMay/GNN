@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "timestamp": "2025-09-24T12:31:54.984851",
+    "data_path": "/Users/xiaotingzhou/Downloads/GNN/Dataset/scalar_coupling_constant",
+    "max_samples": 3000,
+    "total_runtime": 205.17030572891235,
+    "device": "cpu"
+  },
+  "results": {
+    "Simple_MLP": {
+      "MAE": 6.598989963531494,
+      "RMSE": 12.025209649492927,
+      "R2": 0.8979266881942749,
+      "num_parameters": 2689,
+      "training_time": 0.262923002243042,
+      "best_val_loss": 165.0837193467882
+    },
+    "GCN": {
+      "MAE": 4.951018333435059,
+      "RMSE": 8.640266066092588,
+      "R2": 0.9562937021255493,
+      "num_parameters": 93441,
+      "training_time": 8.369972229003906,
+      "best_val_loss": 61.615782736672294
+    },
+    "GAT": {
+      "MAE": 6.723232269287109,
+      "RMSE": 10.33111519745785,
+      "R2": 0.9179596900939941,
+      "num_parameters": 152833,
+      "training_time": 12.921983003616333,
+      "best_val_loss": 153.10150536431206
+    },
+    "Transformer": {
+      "MAE": 3.461530923843384,
+      "RMSE": 5.164606155195306,
+      "R2": 0.9807968735694885,
+      "num_parameters": 234369,
+      "training_time": 16.10270094871521,
+      "best_val_loss": 28.721462588840062
+    }
+  }
+}
